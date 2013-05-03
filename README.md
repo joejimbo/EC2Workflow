@@ -7,7 +7,7 @@ This implementation is a generalization of the text mining pipeline used in [opa
 
 ### Schematic
 
-![opacmo logo](https://github.com/joejimbo/opacmo/raw/master/images/workflow.png)
+![workflow](https://github.com/joejimbo/EC2Workflow/raw/master/images/workflow.png)
 
 ### Usage
 
@@ -37,7 +37,7 @@ First, you need to install Amazon's EC2 API tools (the tools' version number mig
     # AWS_ACCESS_KEY looks like 'BUE920...', 20 characters
     # AWS_SECRET_KEY looks like 'EsfW2R...', >20 characters
     export AWS_ACCOUNT_ID=...
-     export AWS_ACCESS_KEY=...
+    export AWS_ACCESS_KEY=...
     export AWS_SECRET_KEY=...
 
 Second, you install EC2Workflow:
