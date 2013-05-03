@@ -20,8 +20,8 @@ Options for _instance\_type_:
 
 Contents of _workflow\_directory_:
 * `configuration.sh` : override default variables (if needed) that are otherwise set to default values; this file is optional
-*  `run\_on\_cache.sh`  : executed on the "cache" EC2 instance; should be used for downloading data that gets deposited in the cache; this file is mandatory
-*  `run\_on\_worker.sh` : executed on the "worker" EC2 instances; should be used to process data (download/upload of data from/to the "cache" EC2 instance is automated); this file is mandatory
+*  `run_on_cache.sh`  : executed on the "cache" EC2 instance; should be used for downloading data that gets deposited in the cache; this file is mandatory
+*  `run_on_worker.sh` : executed on the "worker" EC2 instances; should be used to process data (download/upload of data from/to the "cache" EC2 instance is automated); this file is mandatory
 *  other files: will be transferred too, but not be executed automatically
 
 ### Example
