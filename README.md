@@ -49,7 +49,7 @@ Second, you install EC2Workflow:
 
 Now EC2Workflow is ready for use. Try to run the small example that comes with it (costs a few cents):
 
-    ec2workflow.sh ondemand ~/src/EC2Workflow/example
+    ec2workflow.sh ondemand `dirname $(which ec2workflow.sh)`/example
 
 The console output will look like this:
 
