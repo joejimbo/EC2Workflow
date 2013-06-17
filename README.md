@@ -30,8 +30,8 @@ First, you need to install Amazon's EC2 API tools (the tools' version number mig
 
     wget 'http://s3.amazonaws.com/ec2-downloads/ec2-api-tools.zip'
     unzip ec2-api-tools.zip
-    export PATH=$PATH:`pwd`/ec2-api-tools-1.6.7.2/bin
-    export EC2_HOME=`pwd`/ec2-api-tools-1.6.7.2
+    export PATH=$PATH:`pwd`/ec2-api-tools-1.6.7.3/bin
+    export EC2_HOME=`pwd`/ec2-api-tools-1.6.7.3
     # See: https://portal.aws.amazon.com/gp/aws/securityCredentials
     # AWS_ACCOUNT_ID looks like '1234-5678-9012'
     # AWS_ACCESS_KEY looks like 'BUE920...', 20 characters
